@@ -11,6 +11,8 @@ while True:
     guess = int(guess)
 
     if guess == number:
+        
         print("🎉 You Won!\n")
     else:
+        
         print(f"❌ You Lost. The number was {number}\n")
